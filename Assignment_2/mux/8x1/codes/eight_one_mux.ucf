@@ -1,0 +1,12 @@
+net "a" loc = "R17";
+net "b" loc = "N17";
+net "c" loc = "L13";
+net "d" loc = "L14";
+net "e" loc = "K17";
+net "f" loc = "K18";
+net "g" loc = "H18";
+net "h" loc = "G18";
+net "sel0" loc = "B18";
+net "sel1" loc = "D18";
+net "sel2" loc = "E18";
+net "op" loc = "R4";

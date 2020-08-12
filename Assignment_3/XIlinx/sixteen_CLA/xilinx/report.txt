@@ -1,0 +1,107 @@
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sixteen_CRA.ngr
+Top Level Output File Name         : sixteen_CRA
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 50
+
+Cell Usage :
+# BELS                             : 38
+#      LUT3                        : 26
+#      LUT4                        : 8
+#      MUXF5                       : 4
+# IO Buffers                       : 50
+#      IBUF                        : 33
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       19  out of   4656     0%  
+ Number of 4 input LUTs:                 34  out of   9312     0%  
+ Number of IOs:                          50
+ Number of bonded IOBs:                  50  out of    232    21%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 19.934ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 553 / 17
+-------------------------------------------------------------------------
+Delay:               19.934ns (Levels of Logic = 18)
+  Source:            x<0> (PAD)
+  Destination:       c_out (PAD)
+
+  Data Path: x<0> to c_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.106   0.690  x_0_IBUF (x_0_IBUF)
+     LUT4:I0->O            1   0.612   0.000  c_out1411 (c_out141)
+     MUXF5:I1->O           5   0.278   0.568  c_out141_f5 (c_out_bdd26)
+     LUT4:I2->O            1   0.612   0.000  c_out121 (c_out12)
+     MUXF5:I1->O           2   0.278   0.410  c_out12_f5 (c_out_bdd22)
+     LUT3:I2->O            2   0.612   0.410  c_out111 (c_out_bdd20)
+     LUT3:I2->O            2   0.612   0.410  c_out101 (c_out_bdd18)
+     LUT3:I2->O            2   0.612   0.410  c_out91 (c_out_bdd16)
+     LUT3:I2->O            2   0.612   0.410  c_out81 (c_out_bdd14)
+     LUT3:I2->O            2   0.612   0.410  c_out71 (c_out_bdd12)
+     LUT3:I2->O            2   0.612   0.410  c_out61 (c_out_bdd10)
+     LUT3:I2->O            2   0.612   0.410  c_out51 (c_out_bdd8)
+     LUT3:I2->O            2   0.612   0.410  c_out41 (c_out_bdd6)
+     LUT3:I2->O            2   0.612   0.410  c_out31 (c_out_bdd4)
+     LUT3:I2->O            2   0.612   0.410  c_out21 (c_out_bdd2)
+     LUT3:I2->O            2   0.612   0.410  c_out11 (c_out_bdd0)
+     LUT3:I2->O            1   0.612   0.357  sum<15>1 (sum_15_OBUF)
+     OBUF:I->O                 3.169          sum_15_OBUF (sum<15>)
+    ----------------------------------------
+    Total                     19.934ns (13.399ns logic, 6.535ns route)
+                                       (67.2% logic, 32.8% route)
+
+=========================================================================
+

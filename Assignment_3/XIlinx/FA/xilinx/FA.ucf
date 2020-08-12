@@ -1,0 +1,5 @@
+net "x" loc = "R17";
+net "y" loc = "N17";
+net "c_in" loc = "L13";
+net "c_out" loc = "R4";
+net "sum" loc = "F4";

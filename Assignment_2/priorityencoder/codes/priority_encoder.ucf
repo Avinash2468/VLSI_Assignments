@@ -1,0 +1,13 @@
+net "y0" loc = "R4";
+net "y1" loc = "F4";
+net "y2" loc = "P15";
+net "v" loc = "E17";
+net "e" loc = "H13";
+net "x0" loc = "R17";
+net "x1" loc = "N17";
+net "x2" loc = "L13";
+net "x3" loc = "L14";
+net "x4" loc = "K17";
+net "x5" loc = "K18";
+net "x6" loc = "H18";
+net "x7" loc = "G18";
