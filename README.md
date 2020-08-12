@@ -8,15 +8,15 @@
        Hardware : Spartan 3-E FPGA board.  
 ```
 
-## Implemented digital circuits are :   
+## Implemented digital circuits are:   
 ```
- - Basic Digital gates  
- - MUX, DEMUX, Encoder, Decoder  
- - Various types of adders  
- - Various Types of multipliers  
- - FFT  
- - Various types of FLIP-FLOPS  
- - FSM based circuit  
+  Basic Digital gates  
+  MUX, DEMUX, Encoder, Decoder  
+  Various types of adders  
+  Various Types of multipliers  
+  FFT  
+  Various types of FLIP-FLOPS  
+  FSM based circuit  
  
  ```
 
