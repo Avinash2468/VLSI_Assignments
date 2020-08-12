@@ -9,6 +9,7 @@
 ```
 
 ## Implemented digital circuits are :   
+```
  - Basic Digital gates  
  - MUX, DEMUX, Encoder, Decoder  
  - Various types of adders  
@@ -16,5 +17,7 @@
  - FFT  
  - Various types of FLIP-FLOPS  
  - FSM based circuit  
+ 
+ ```
 
 **Detailed explination and results are provided in the respective folders**
